@@ -1,3 +1,13 @@
+# What is this? 
+
+This is a demo project for my course, 'Android Developer Nanodegree by Google' that I started in early 2018. This was a project I had to submit to veryfy my knowledge in Gradle for Android and Java. I had a decent starter code and I had to follow steps to create new libraries and link them with Gradle, manage dependencies and add flavours. I also fine tuned the UI, which was not required, but I wanted to try using gradient background. Check out the screenshots <a href="#screenshots">below</a>. Also, find the starter code <a href="https://github.com/udacity/ud867/tree/master/FinalProject">here</a> (that you can also find with more details of and the instructions if you read on).
+
+<h4 id="screenshots">Screenshots</h4>
+
+| Opening screen   |   Loading animation  |
+   |:---:|:---:|
+   | <img src="https://github.com/TonMarton/BuildItBigger/blob/master/Screenshots/opening_sreen.png" width="200"/> | <img src="https://github.com/TonMarton/BuildItBigger/blob/master/Screenshots/loading_animation.png" width="200"/> |
+
 # Gradle for Android and Java Final Project
 
 In this project, you will create an app with multiple flavors that uses
