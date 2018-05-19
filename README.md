@@ -6,7 +6,7 @@ This is a demo project for my course, 'Android Developer Nanodegree by Google' t
 
 | Opening screen   |   Loading animation  |
    |:---:|:---:|
-   | <img src="https://github.com/TonMarton/BuildItBigger/blob/master/Screenshots/opening_sreen.png" width="200"/> | <img src="https://github.com/TonMarton/BuildItBigger/blob/master/Screenshots/loading_animation.png" width="200"/> |
+   | <img src="https://github.com/TonMarton/BuildItBigger/blob/master/Screenshots/opening_screen.png" width="200"/> | <img src="https://github.com/TonMarton/BuildItBigger/blob/master/Screenshots/loading_animation.png" width="200"/> |
 
 # Gradle for Android and Java Final Project
 
