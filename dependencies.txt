@@ -1,0 +1,2184 @@
+Gradle now uses separate output directories for each JVM language, but this build assumes a single directory for all classes from a source set. This behaviour has been deprecated and is scheduled to be removed in Gradle 5.0
+:app:dependencies
+
+------------------------------------------------------------
+Project :app
+------------------------------------------------------------
+
+androidTestAnnotationProcessor - Classpath for the annotation processor for 'androidTest'. (n)
+No dependencies
+
+androidTestApi - API dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestApk - Apk dependencies for 'androidTest' sources (deprecated: use 'androidTestRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestCompile - Compile dependencies for 'androidTest' sources (deprecated: use 'androidTestImplementation' instead). (n)
+No dependencies
+
+androidTestCompileOnly - Compile only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestDebug'. (n)
+No dependencies
+
+androidTestDebugApi - API dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugApk - Apk dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestDebugCompile - Compile dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugImplementation' instead). (n)
+No dependencies
+
+androidTestDebugCompileOnly - Compile only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugImplementation - Implementation only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugProvided - Provided dependencies for 'androidTestDebug' sources (deprecated: use 'androidTestDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestDebugRuntimeOnly - Runtime only dependencies for 'androidTestDebug' sources. (n)
+No dependencies
+
+androidTestDebugWearApp - Link to a wear app to embed for object 'androidTestDebug'. (n)
+No dependencies
+
+androidTestFreeAnnotationProcessor - Classpath for the annotation processor for 'androidTestFree'. (n)
+No dependencies
+
+androidTestFreeApi - API dependencies for 'androidTestFree' sources. (n)
+No dependencies
+
+androidTestFreeApk - Apk dependencies for 'androidTestFree' sources (deprecated: use 'androidTestFreeRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestFreeCompile - Compile dependencies for 'androidTestFree' sources (deprecated: use 'androidTestFreeImplementation' instead). (n)
+No dependencies
+
+androidTestFreeCompileOnly - Compile only dependencies for 'androidTestFree' sources. (n)
+No dependencies
+
+androidTestFreeDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestFreeDebug'. (n)
+No dependencies
+
+androidTestFreeDebugApi - API dependencies for 'androidTestFreeDebug' sources. (n)
+No dependencies
+
+androidTestFreeDebugApk - Apk dependencies for 'androidTestFreeDebug' sources (deprecated: use 'androidTestFreeDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestFreeDebugCompile - Compile dependencies for 'androidTestFreeDebug' sources (deprecated: use 'androidTestFreeDebugImplementation' instead). (n)
+No dependencies
+
+androidTestFreeDebugCompileOnly - Compile only dependencies for 'androidTestFreeDebug' sources. (n)
+No dependencies
+
+androidTestFreeDebugImplementation - Implementation only dependencies for 'androidTestFreeDebug' sources. (n)
+No dependencies
+
+androidTestFreeDebugProvided - Provided dependencies for 'androidTestFreeDebug' sources (deprecated: use 'androidTestFreeDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestFreeDebugRuntimeOnly - Runtime only dependencies for 'androidTestFreeDebug' sources. (n)
+No dependencies
+
+androidTestFreeDebugWearApp - Link to a wear app to embed for object 'androidTestFreeDebug'. (n)
+No dependencies
+
+androidTestFreeImplementation - Implementation only dependencies for 'androidTestFree' sources. (n)
+No dependencies
+
+androidTestFreeProvided - Provided dependencies for 'androidTestFree' sources (deprecated: use 'androidTestFreeCompileOnly' instead). (n)
+No dependencies
+
+androidTestFreeRuntimeOnly - Runtime only dependencies for 'androidTestFree' sources. (n)
+No dependencies
+
+androidTestFreeWearApp - Link to a wear app to embed for object 'androidTestFree'. (n)
+No dependencies
+
+androidTestImplementation - Implementation only dependencies for 'androidTest' sources. (n)
++--- com.android.support.test.espresso:espresso-core:2.2.2 (n)
+\--- com.android.support.test.espresso:espresso-intents:2.2.2 (n)
+
+androidTestPaidAnnotationProcessor - Classpath for the annotation processor for 'androidTestPaid'. (n)
+No dependencies
+
+androidTestPaidApi - API dependencies for 'androidTestPaid' sources. (n)
+No dependencies
+
+androidTestPaidApk - Apk dependencies for 'androidTestPaid' sources (deprecated: use 'androidTestPaidRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestPaidCompile - Compile dependencies for 'androidTestPaid' sources (deprecated: use 'androidTestPaidImplementation' instead). (n)
+No dependencies
+
+androidTestPaidCompileOnly - Compile only dependencies for 'androidTestPaid' sources. (n)
+No dependencies
+
+androidTestPaidDebugAnnotationProcessor - Classpath for the annotation processor for 'androidTestPaidDebug'. (n)
+No dependencies
+
+androidTestPaidDebugApi - API dependencies for 'androidTestPaidDebug' sources. (n)
+No dependencies
+
+androidTestPaidDebugApk - Apk dependencies for 'androidTestPaidDebug' sources (deprecated: use 'androidTestPaidDebugRuntimeOnly' instead). (n)
+No dependencies
+
+androidTestPaidDebugCompile - Compile dependencies for 'androidTestPaidDebug' sources (deprecated: use 'androidTestPaidDebugImplementation' instead). (n)
+No dependencies
+
+androidTestPaidDebugCompileOnly - Compile only dependencies for 'androidTestPaidDebug' sources. (n)
+No dependencies
+
+androidTestPaidDebugImplementation - Implementation only dependencies for 'androidTestPaidDebug' sources. (n)
+No dependencies
+
+androidTestPaidDebugProvided - Provided dependencies for 'androidTestPaidDebug' sources (deprecated: use 'androidTestPaidDebugCompileOnly' instead). (n)
+No dependencies
+
+androidTestPaidDebugRuntimeOnly - Runtime only dependencies for 'androidTestPaidDebug' sources. (n)
+No dependencies
+
+androidTestPaidDebugWearApp - Link to a wear app to embed for object 'androidTestPaidDebug'. (n)
+No dependencies
+
+androidTestPaidImplementation - Implementation only dependencies for 'androidTestPaid' sources. (n)
+No dependencies
+
+androidTestPaidProvided - Provided dependencies for 'androidTestPaid' sources (deprecated: use 'androidTestPaidCompileOnly' instead). (n)
+No dependencies
+
+androidTestPaidRuntimeOnly - Runtime only dependencies for 'androidTestPaid' sources. (n)
+No dependencies
+
+androidTestPaidWearApp - Link to a wear app to embed for object 'androidTestPaid'. (n)
+No dependencies
+
+androidTestProvided - Provided dependencies for 'androidTest' sources (deprecated: use 'androidTestCompileOnly' instead). (n)
+No dependencies
+
+androidTestRuntimeOnly - Runtime only dependencies for 'androidTest' sources. (n)
+No dependencies
+
+androidTestUtil - Additional APKs used during instrumentation testing.
+No dependencies
+
+androidTestWearApp - Link to a wear app to embed for object 'androidTest'. (n)
+No dependencies
+
+annotationProcessor - Classpath for the annotation processor for 'main'. (n)
+No dependencies
+
+api - API dependencies for 'main' sources. (n)
+No dependencies
+
+apk - Apk dependencies for 'main' sources (deprecated: use 'runtimeOnly' instead). (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compile - Compile dependencies for 'main' sources (deprecated: use 'implementation' instead).
+No dependencies
+
+compileOnly - Compile only dependencies for 'main' sources. (n)
+No dependencies
+
+debugAnnotationProcessor - Classpath for the annotation processor for 'debug'. (n)
+No dependencies
+
+debugApi - API dependencies for 'debug' sources. (n)
+No dependencies
+
+debugApk - Apk dependencies for 'debug' sources (deprecated: use 'debugRuntimeOnly' instead). (n)
+No dependencies
+
+debugCompile - Compile dependencies for 'debug' sources (deprecated: use 'debugImplementation' instead). (n)
+No dependencies
+
+debugCompileOnly - Compile only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugImplementation - Implementation only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugProvided - Provided dependencies for 'debug' sources (deprecated: use 'debugCompileOnly' instead). (n)
+No dependencies
+
+debugRuntimeOnly - Runtime only dependencies for 'debug' sources. (n)
+No dependencies
+
+debugWearApp - Link to a wear app to embed for object 'debug'. (n)
+No dependencies
+
+default - Configuration for default artifacts.
+No dependencies
+
+endpointsServer - endpointsServer project(path: ':xyz', configuration: 'endpoints')
+\--- project :backend
+
+freeAnnotationProcessor - Classpath for the annotation processor for 'free'. (n)
+No dependencies
+
+freeApi - API dependencies for 'free' sources. (n)
+No dependencies
+
+freeApk - Apk dependencies for 'free' sources (deprecated: use 'freeRuntimeOnly' instead). (n)
+No dependencies
+
+freeCompile - Compile dependencies for 'free' sources (deprecated: use 'freeImplementation' instead). (n)
+No dependencies
+
+freeCompileOnly - Compile only dependencies for 'free' sources. (n)
+No dependencies
+
+freeDebugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: freeDebugAndroidTest
+No dependencies
+
+freeDebugAndroidTestCompileClasspath - Resolved configuration for compilation for variant: freeDebugAndroidTest
++--- com.android.support.test.espresso:espresso-core:2.2.2
+|    +--- com.squareup:javawriter:2.1.1
+|    +--- com.android.support.test:rules:0.5
+|    |    \--- com.android.support.test:runner:0.5
+|    |         +--- com.android.support:support-annotations:23.1.1 -> 26.1.0
+|    |         +--- junit:junit:4.12
+|    |         |    \--- org.hamcrest:hamcrest-core:1.3
+|    |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5
+|    +--- com.android.support.test:runner:0.5 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- org.hamcrest:hamcrest-library:1.3
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2
+|    +--- org.hamcrest:hamcrest-integration:1.3
+|    |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+|    +--- com.google.code.findbugs:jsr305:2.0.1 -> 3.0.1
+|    \--- javax.annotation:javax.annotation-api:1.2
++--- com.android.support.test.espresso:espresso-intents:2.2.2
+|    \--- com.android.support.test.espresso:espresso-core:2.2.2 (*)
++--- com.android.support:multidex-instrumentation:1.0.2
+|    \--- com.android.support:multidex:1.0.2
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
+\--- project :jokeactivity
+
+freeDebugAndroidTestRuntimeClasspath - Resolved configuration for runtime for variant: freeDebugAndroidTest
++--- com.android.support.test.espresso:espresso-core:2.2.2
+|    +--- com.squareup:javawriter:2.1.1
+|    +--- com.android.support.test:rules:0.5
+|    |    \--- com.android.support.test:runner:0.5
+|    |         +--- com.android.support:support-annotations:23.1.1 -> 26.1.0
+|    |         +--- junit:junit:4.12
+|    |         |    \--- org.hamcrest:hamcrest-core:1.3
+|    |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5
+|    +--- com.android.support.test:runner:0.5 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- org.hamcrest:hamcrest-library:1.3
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2
+|    +--- org.hamcrest:hamcrest-integration:1.3
+|    |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+|    +--- com.google.code.findbugs:jsr305:2.0.1 -> 3.0.1
+|    \--- javax.annotation:javax.annotation-api:1.2
++--- com.android.support.test.espresso:espresso-intents:2.2.2
+|    \--- com.android.support.test.espresso:espresso-core:2.2.2 (*)
++--- com.android.support:multidex-instrumentation:1.0.2
+|    \--- com.android.support:multidex:1.0.2
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
+\--- project :jokeactivity
+     \--- com.android.support:appcompat-v7:26.1.0 (*)
+
+freeDebugAnnotationProcessor - Classpath for the annotation processor for 'freeDebug'. (n)
+No dependencies
+
+freeDebugAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: freeDebug
+No dependencies
+
+freeDebugApi - API dependencies for 'freeDebug' sources. (n)
+No dependencies
+
+freeDebugApiElements - API elements for freeDebug (n)
+No dependencies
+
+freeDebugApk - Apk dependencies for 'freeDebug' sources (deprecated: use 'freeDebugRuntimeOnly' instead). (n)
+No dependencies
+
+freeDebugBundleElements - Bundle elements for freeDebug (n)
+No dependencies
+
+freeDebugCompile - Compile dependencies for 'freeDebug' sources (deprecated: use 'freeDebugImplementation' instead). (n)
+No dependencies
+
+freeDebugCompileClasspath - Resolved configuration for compilation for variant: freeDebug
++--- com.android.support:multidex:1.0.2
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
+\--- project :jokeactivity
+
+freeDebugCompileOnly - Compile only dependencies for 'freeDebug' sources. (n)
+No dependencies
+
+freeDebugImplementation - Implementation only dependencies for 'freeDebug' sources. (n)
+No dependencies
+
+freeDebugMetadataElements - Metadata elements for freeDebug (n)
+No dependencies
+
+freeDebugProvided - Provided dependencies for 'freeDebug' sources (deprecated: use 'freeDebugCompileOnly' instead). (n)
+No dependencies
+
+freeDebugRuntimeClasspath - Resolved configuration for runtime for variant: freeDebug
++--- com.android.support:multidex:1.0.2
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
+\--- project :jokeactivity
+     \--- com.android.support:appcompat-v7:26.1.0 (*)
+
+freeDebugRuntimeElements - Runtime elements for freeDebug (n)
+No dependencies
+
+freeDebugRuntimeOnly - Runtime only dependencies for 'freeDebug' sources. (n)
+No dependencies
+
+freeDebugUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: freeDebugUnitTest
+No dependencies
+
+freeDebugUnitTestCompileClasspath - Resolved configuration for compilation for variant: freeDebugUnitTest
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+freeDebugUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: freeDebugUnitTest
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+|    \--- com.android.support:appcompat-v7:26.1.0 (*)
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+freeDebugWearApp - Link to a wear app to embed for object 'freeDebug'. (n)
+No dependencies
+
+freeDebugWearBundling - Resolved Configuration for wear app bundling for variant: freeDebug
+No dependencies
+
+freeImplementation - Implementation only dependencies for 'free' sources. (n)
+No dependencies
+
+freeProvided - Provided dependencies for 'free' sources (deprecated: use 'freeCompileOnly' instead). (n)
+No dependencies
+
+freeReleaseAnnotationProcessor - Classpath for the annotation processor for 'freeRelease'. (n)
+No dependencies
+
+freeReleaseAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: freeRelease
+No dependencies
+
+freeReleaseApi - API dependencies for 'freeRelease' sources. (n)
+No dependencies
+
+freeReleaseApiElements - API elements for freeRelease (n)
+No dependencies
+
+freeReleaseApk - Apk dependencies for 'freeRelease' sources (deprecated: use 'freeReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+freeReleaseBundleElements - Bundle elements for freeRelease (n)
+No dependencies
+
+freeReleaseCompile - Compile dependencies for 'freeRelease' sources (deprecated: use 'freeReleaseImplementation' instead). (n)
+No dependencies
+
+freeReleaseCompileClasspath - Resolved configuration for compilation for variant: freeRelease
++--- com.android.support:multidex:1.0.2
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
+\--- project :jokeactivity
+
+freeReleaseCompileOnly - Compile only dependencies for 'freeRelease' sources. (n)
+No dependencies
+
+freeReleaseImplementation - Implementation only dependencies for 'freeRelease' sources. (n)
+No dependencies
+
+freeReleaseMetadataElements - Metadata elements for freeRelease (n)
+No dependencies
+
+freeReleaseProvided - Provided dependencies for 'freeRelease' sources (deprecated: use 'freeReleaseCompileOnly' instead). (n)
+No dependencies
+
+freeReleaseRuntimeClasspath - Resolved configuration for runtime for variant: freeRelease
++--- com.android.support:multidex:1.0.2
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
+\--- project :jokeactivity
+     \--- com.android.support:appcompat-v7:26.1.0 (*)
+
+freeReleaseRuntimeElements - Runtime elements for freeRelease (n)
+No dependencies
+
+freeReleaseRuntimeOnly - Runtime only dependencies for 'freeRelease' sources. (n)
+No dependencies
+
+freeReleaseUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: freeReleaseUnitTest
+No dependencies
+
+freeReleaseUnitTestCompileClasspath - Resolved configuration for compilation for variant: freeReleaseUnitTest
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+freeReleaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: freeReleaseUnitTest
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+|    \--- com.android.support:appcompat-v7:26.1.0 (*)
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+freeReleaseWearApp - Link to a wear app to embed for object 'freeRelease'. (n)
+No dependencies
+
+freeReleaseWearBundling - Resolved Configuration for wear app bundling for variant: freeRelease
+No dependencies
+
+freeRuntimeOnly - Runtime only dependencies for 'free' sources. (n)
+No dependencies
+
+freeWearApp - Link to a wear app to embed for object 'free'. (n)
+No dependencies
+
+implementation - Implementation only dependencies for 'main' sources. (n)
++--- unspecified (n)
++--- com.android.support:appcompat-v7:26.1.0 (n)
++--- com.google.android.gms:play-services-ads:11.8.0 (n)
++--- com.google.api-client:google-api-client:1.23.0 (n)
++--- com.google.http-client:google-http-client-android:1.23.0 (n)
++--- com.google.code.findbugs:jsr305:3.0.1 (n)
+\--- project jokeactivity (n)
+
+lintChecks - Configuration to apply external lint check jar
+No dependencies
+
+lintClassPath - The lint embedded classpath
+\--- com.android.tools.lint:lint-gradle:26.1.2
+     +--- com.android.tools:sdk-common:26.1.2
+     |    +--- com.android.tools:sdklib:26.1.2
+     |    |    +--- com.android.tools.layoutlib:layoutlib-api:26.1.2
+     |    |    |    +--- com.android.tools:common:26.1.2
+     |    |    |    |    +--- com.android.tools:annotations:26.1.2
+     |    |    |    |    \--- com.google.guava:guava:22.0
+     |    |    |    |         +--- com.google.code.findbugs:jsr305:1.3.9
+     |    |    |    |         +--- com.google.errorprone:error_prone_annotations:2.0.18
+     |    |    |    |         +--- com.google.j2objc:j2objc-annotations:1.1
+     |    |    |    |         \--- org.codehaus.mojo:animal-sniffer-annotations:1.14
+     |    |    |    +--- net.sf.kxml:kxml2:2.3.0
+     |    |    |    +--- com.android.tools:annotations:26.1.2
+     |    |    |    \--- org.jetbrains:annotations:13.0
+     |    |    +--- com.android.tools:dvlib:26.1.2
+     |    |    |    \--- com.android.tools:common:26.1.2 (*)
+     |    |    +--- com.android.tools:repository:26.1.2
+     |    |    |    +--- com.android.tools:common:26.1.2 (*)
+     |    |    |    +--- com.sun.activation:javax.activation:1.2.0
+     |    |    |    +--- org.apache.commons:commons-compress:1.12
+     |    |    |    +--- org.glassfish.jaxb:jaxb-runtime:2.2.11
+     |    |    |    |    +--- org.glassfish.jaxb:jaxb-core:2.2.11
+     |    |    |    |    |    +--- javax.xml.bind:jaxb-api:2.2.12-b140109.1041
+     |    |    |    |    |    +--- org.glassfish.jaxb:txw2:2.2.11
+     |    |    |    |    |    \--- com.sun.istack:istack-commons-runtime:2.21
+     |    |    |    |    +--- org.jvnet.staxex:stax-ex:1.7.7
+     |    |    |    |    \--- com.sun.xml.fastinfoset:FastInfoset:1.2.13
+     |    |    |    +--- com.google.jimfs:jimfs:1.1
+     |    |    |    |    \--- com.google.guava:guava:18.0 -> 22.0 (*)
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0
+     |    |    |         +--- org.jetbrains.kotlin:kotlin-stdlib:1.2.0
+     |    |    |         |    \--- org.jetbrains:annotations:13.0
+     |    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.0
+     |    |    |              \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.0 (*)
+     |    |    +--- com.google.code.gson:gson:2.7
+     |    |    +--- org.apache.commons:commons-compress:1.12
+     |    |    +--- org.apache.httpcomponents:httpclient:4.2.6
+     |    |    |    +--- org.apache.httpcomponents:httpcore:4.2.5
+     |    |    |    +--- commons-logging:commons-logging:1.1.1
+     |    |    |    \--- commons-codec:commons-codec:1.6
+     |    |    \--- org.apache.httpcomponents:httpmime:4.1
+     |    |         +--- org.apache.httpcomponents:httpcore:4.1 -> 4.2.5
+     |    |         \--- commons-logging:commons-logging:1.1.1
+     |    +--- com.android.tools.build:builder-test-api:3.1.2
+     |    |    \--- com.android.tools.ddms:ddmlib:26.1.2
+     |    |         +--- com.android.tools:common:26.1.2 (*)
+     |    |         \--- net.sf.kxml:kxml2:2.3.0
+     |    +--- com.android.tools.build:builder-model:3.1.2
+     |    |    \--- com.android.tools:annotations:26.1.2
+     |    +--- com.android.tools.ddms:ddmlib:26.1.2 (*)
+     |    +--- org.bouncycastle:bcpkix-jdk15on:1.56
+     |    |    \--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib:1.2.0 (*)
+     |    \--- com.google.protobuf:protobuf-java:3.4.0
+     +--- com.android.tools.build:builder:3.1.2
+     |    +--- com.android.tools.build:builder-model:3.1.2 (*)
+     |    +--- com.android.tools.build:builder-test-api:3.1.2 (*)
+     |    +--- com.android.tools:sdklib:26.1.2 (*)
+     |    +--- com.android.tools:sdk-common:26.1.2 (*)
+     |    +--- com.android.tools:common:26.1.2 (*)
+     |    +--- com.android.tools.build:manifest-merger:26.1.2
+     |    |    +--- com.android.tools:common:26.1.2 (*)
+     |    |    +--- com.android.tools:sdklib:26.1.2 (*)
+     |    |    +--- com.android.tools:sdk-common:26.1.2 (*)
+     |    |    +--- com.google.code.gson:gson:2.7
+     |    |    +--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    |    \--- net.sf.kxml:kxml2:2.3.0
+     |    +--- com.android.tools.ddms:ddmlib:26.1.2 (*)
+     |    +--- com.android.tools.analytics-library:protos:26.1.2
+     |    |    \--- com.google.protobuf:protobuf-java:3.4.0
+     |    +--- com.android.tools.analytics-library:shared:26.1.2
+     |    |    +--- com.android.tools.analytics-library:protos:26.1.2 (*)
+     |    |    +--- com.android.tools:annotations:26.1.2
+     |    |    +--- com.android.tools:common:26.1.2 (*)
+     |    |    +--- com.google.guava:guava:22.0 (*)
+     |    |    \--- com.google.code.gson:gson:2.7
+     |    +--- com.android.tools.analytics-library:tracker:26.1.2
+     |    |    +--- com.android.tools:annotations:26.1.2
+     |    |    +--- com.android.tools:common:26.1.2 (*)
+     |    |    +--- com.android.tools.analytics-library:protos:26.1.2 (*)
+     |    |    +--- com.android.tools.analytics-library:shared:26.1.2 (*)
+     |    |    +--- com.google.protobuf:protobuf-java:3.4.0
+     |    |    \--- com.google.guava:guava:22.0 (*)
+     |    +--- com.android.tools.build:apksig:3.1.2
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    +--- com.squareup:javawriter:2.5.0
+     |    +--- org.bouncycastle:bcpkix-jdk15on:1.56 (*)
+     |    +--- org.bouncycastle:bcprov-jdk15on:1.56
+     |    +--- org.ow2.asm:asm:5.1
+     |    +--- org.ow2.asm:asm-tree:5.1
+     |    |    \--- org.ow2.asm:asm:5.1
+     |    +--- org.ow2.asm:asm-commons:5.1
+     |    |    \--- org.ow2.asm:asm-tree:5.1 (*)
+     |    +--- org.ow2.asm:asm-util:5.1
+     |    |    \--- org.ow2.asm:asm-tree:5.1 (*)
+     |    +--- it.unimi.dsi:fastutil:7.2.0
+     |    +--- net.sf.jopt-simple:jopt-simple:4.9
+     |    \--- com.googlecode.json-simple:json-simple:1.1
+     +--- com.android.tools.build:builder-model:3.1.2 (*)
+     +--- com.android.tools.external.com-intellij:intellij-core:26.1.2
+     |    \--- org.jetbrains.trove4j:trove4j:20160824
+     +--- com.android.tools.external.org-jetbrains:uast:26.1.2
+     +--- com.android.tools.build:manifest-merger:26.1.2 (*)
+     +--- com.android.tools.lint:lint:26.1.2
+     |    +--- com.android.tools.lint:lint-checks:26.1.2
+     |    |    +--- com.android.tools.lint:lint-api:26.1.2
+     |    |    |    +--- com.android.tools:sdk-common:26.1.2 (*)
+     |    |    |    +--- com.android.tools.build:builder-model:3.1.2 (*)
+     |    |    |    +--- com.google.guava:guava:22.0 (*)
+     |    |    |    +--- com.android.tools.lint:lint-kotlin:26.1.2
+     |    |    |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.1.2 (*)
+     |    |    |    |    +--- com.android.tools.external.com-intellij:kotlin-compiler:26.1.2
+     |    |    |    |    +--- com.android.tools.external.org-jetbrains:uast:26.1.2
+     |    |    |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.1.2 (*)
+     |    |    |    +--- com.android.tools.external.org-jetbrains:uast:26.1.2
+     |    |    |    +--- com.android.tools.build:manifest-merger:26.1.2 (*)
+     |    |    |    +--- org.ow2.asm:asm:5.1
+     |    |    |    +--- org.ow2.asm:asm-tree:5.1 (*)
+     |    |    |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    |    +--- com.google.guava:guava:22.0 (*)
+     |    |    +--- com.android.tools.external.com-intellij:intellij-core:26.1.2 (*)
+     |    |    +--- com.android.tools.external.org-jetbrains:uast:26.1.2
+     |    |    \--- org.ow2.asm:asm-analysis:5.1
+     |    |         \--- org.ow2.asm:asm-tree:5.1 (*)
+     |    +--- com.android.tools.lint:lint-kotlin:26.1.2 (*)
+     |    +--- com.google.guava:guava:22.0 (*)
+     |    +--- com.android.tools.external.org-jetbrains:uast:26.1.2
+     |    +--- com.android.tools.external.com-intellij:kotlin-compiler:26.1.2
+     |    +--- com.android.tools.build:manifest-merger:26.1.2 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     +--- com.android.tools.lint:lint-gradle-api:26.1.2
+     |    +--- com.android.tools:sdklib:26.1.2 (*)
+     |    +--- com.android.tools.build:builder-model:3.1.2 (*)
+     |    +--- com.android.tools.build:gradle-api:3.1.2
+     |    |    +--- com.android.tools.build:builder-model:3.1.2 (*)
+     |    |    +--- com.android.tools.build:builder-test-api:3.1.2 (*)
+     |    |    +--- com.google.guava:guava:22.0 (*)
+     |    |    \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     |    +--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+     |    \--- com.google.guava:guava:22.0 (*)
+     +--- org.codehaus.groovy:groovy-all:2.4.12
+     +--- org.jetbrains.kotlin:kotlin-reflect:1.2.0 (*)
+     \--- org.jetbrains.kotlin:kotlin-stdlib-jre8:1.2.0 (*)
+
+paidAnnotationProcessor - Classpath for the annotation processor for 'paid'. (n)
+No dependencies
+
+paidApi - API dependencies for 'paid' sources. (n)
+No dependencies
+
+paidApk - Apk dependencies for 'paid' sources (deprecated: use 'paidRuntimeOnly' instead). (n)
+No dependencies
+
+paidCompile - Compile dependencies for 'paid' sources (deprecated: use 'paidImplementation' instead). (n)
+No dependencies
+
+paidCompileOnly - Compile only dependencies for 'paid' sources. (n)
+No dependencies
+
+paidDebugAndroidTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: paidDebugAndroidTest
+No dependencies
+
+paidDebugAndroidTestCompileClasspath - Resolved configuration for compilation for variant: paidDebugAndroidTest
++--- com.android.support.test.espresso:espresso-core:2.2.2
+|    +--- com.squareup:javawriter:2.1.1
+|    +--- com.android.support.test:rules:0.5
+|    |    \--- com.android.support.test:runner:0.5
+|    |         +--- com.android.support:support-annotations:23.1.1 -> 26.1.0
+|    |         +--- junit:junit:4.12
+|    |         |    \--- org.hamcrest:hamcrest-core:1.3
+|    |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5
+|    +--- com.android.support.test:runner:0.5 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- org.hamcrest:hamcrest-library:1.3
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2
+|    +--- org.hamcrest:hamcrest-integration:1.3
+|    |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+|    +--- com.google.code.findbugs:jsr305:2.0.1 -> 3.0.1
+|    \--- javax.annotation:javax.annotation-api:1.2
++--- com.android.support.test.espresso:espresso-intents:2.2.2
+|    \--- com.android.support.test.espresso:espresso-core:2.2.2 (*)
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+\--- com.android.support:multidex-instrumentation:1.0.2
+     \--- com.android.support:multidex:1.0.2
+
+paidDebugAndroidTestRuntimeClasspath - Resolved configuration for runtime for variant: paidDebugAndroidTest
++--- com.android.support.test.espresso:espresso-core:2.2.2
+|    +--- com.squareup:javawriter:2.1.1
+|    +--- com.android.support.test:rules:0.5
+|    |    \--- com.android.support.test:runner:0.5
+|    |         +--- com.android.support:support-annotations:23.1.1 -> 26.1.0
+|    |         +--- junit:junit:4.12
+|    |         |    \--- org.hamcrest:hamcrest-core:1.3
+|    |         \--- com.android.support.test:exposed-instrumentation-api-publish:0.5
+|    +--- com.android.support.test:runner:0.5 (*)
+|    +--- javax.inject:javax.inject:1
+|    +--- org.hamcrest:hamcrest-library:1.3
+|    |    \--- org.hamcrest:hamcrest-core:1.3
+|    +--- com.android.support.test.espresso:espresso-idling-resource:2.2.2
+|    +--- org.hamcrest:hamcrest-integration:1.3
+|    |    \--- org.hamcrest:hamcrest-library:1.3 (*)
+|    +--- com.google.code.findbugs:jsr305:2.0.1 -> 3.0.1
+|    \--- javax.annotation:javax.annotation-api:1.2
++--- com.android.support.test.espresso:espresso-intents:2.2.2
+|    \--- com.android.support.test.espresso:espresso-core:2.2.2 (*)
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+|    \--- com.android.support:appcompat-v7:26.1.0 (*)
+\--- com.android.support:multidex-instrumentation:1.0.2
+     \--- com.android.support:multidex:1.0.2
+
+paidDebugAnnotationProcessor - Classpath for the annotation processor for 'paidDebug'. (n)
+No dependencies
+
+paidDebugAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: paidDebug
+No dependencies
+
+paidDebugApi - API dependencies for 'paidDebug' sources. (n)
+No dependencies
+
+paidDebugApiElements - API elements for paidDebug (n)
+No dependencies
+
+paidDebugApk - Apk dependencies for 'paidDebug' sources (deprecated: use 'paidDebugRuntimeOnly' instead). (n)
+No dependencies
+
+paidDebugBundleElements - Bundle elements for paidDebug (n)
+No dependencies
+
+paidDebugCompile - Compile dependencies for 'paidDebug' sources (deprecated: use 'paidDebugImplementation' instead). (n)
+No dependencies
+
+paidDebugCompileClasspath - Resolved configuration for compilation for variant: paidDebug
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+\--- com.android.support:multidex:1.0.2
+
+paidDebugCompileOnly - Compile only dependencies for 'paidDebug' sources. (n)
+No dependencies
+
+paidDebugImplementation - Implementation only dependencies for 'paidDebug' sources. (n)
+No dependencies
+
+paidDebugMetadataElements - Metadata elements for paidDebug (n)
+No dependencies
+
+paidDebugProvided - Provided dependencies for 'paidDebug' sources (deprecated: use 'paidDebugCompileOnly' instead). (n)
+No dependencies
+
+paidDebugRuntimeClasspath - Resolved configuration for runtime for variant: paidDebug
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+|    \--- com.android.support:appcompat-v7:26.1.0 (*)
+\--- com.android.support:multidex:1.0.2
+
+paidDebugRuntimeElements - Runtime elements for paidDebug (n)
+No dependencies
+
+paidDebugRuntimeOnly - Runtime only dependencies for 'paidDebug' sources. (n)
+No dependencies
+
+paidDebugUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: paidDebugUnitTest
+No dependencies
+
+paidDebugUnitTestCompileClasspath - Resolved configuration for compilation for variant: paidDebugUnitTest
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+paidDebugUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: paidDebugUnitTest
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+|    \--- com.android.support:appcompat-v7:26.1.0 (*)
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+paidDebugWearApp - Link to a wear app to embed for object 'paidDebug'. (n)
+No dependencies
+
+paidDebugWearBundling - Resolved Configuration for wear app bundling for variant: paidDebug
+No dependencies
+
+paidImplementation - Implementation only dependencies for 'paid' sources. (n)
+No dependencies
+
+paidProvided - Provided dependencies for 'paid' sources (deprecated: use 'paidCompileOnly' instead). (n)
+No dependencies
+
+paidReleaseAnnotationProcessor - Classpath for the annotation processor for 'paidRelease'. (n)
+No dependencies
+
+paidReleaseAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: paidRelease
+No dependencies
+
+paidReleaseApi - API dependencies for 'paidRelease' sources. (n)
+No dependencies
+
+paidReleaseApiElements - API elements for paidRelease (n)
+No dependencies
+
+paidReleaseApk - Apk dependencies for 'paidRelease' sources (deprecated: use 'paidReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+paidReleaseBundleElements - Bundle elements for paidRelease (n)
+No dependencies
+
+paidReleaseCompile - Compile dependencies for 'paidRelease' sources (deprecated: use 'paidReleaseImplementation' instead). (n)
+No dependencies
+
+paidReleaseCompileClasspath - Resolved configuration for compilation for variant: paidRelease
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+\--- com.android.support:multidex:1.0.2
+
+paidReleaseCompileOnly - Compile only dependencies for 'paidRelease' sources. (n)
+No dependencies
+
+paidReleaseImplementation - Implementation only dependencies for 'paidRelease' sources. (n)
+No dependencies
+
+paidReleaseMetadataElements - Metadata elements for paidRelease (n)
+No dependencies
+
+paidReleaseProvided - Provided dependencies for 'paidRelease' sources (deprecated: use 'paidReleaseCompileOnly' instead). (n)
+No dependencies
+
+paidReleaseRuntimeClasspath - Resolved configuration for runtime for variant: paidRelease
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+|    \--- com.android.support:appcompat-v7:26.1.0 (*)
+\--- com.android.support:multidex:1.0.2
+
+paidReleaseRuntimeElements - Runtime elements for paidRelease (n)
+No dependencies
+
+paidReleaseRuntimeOnly - Runtime only dependencies for 'paidRelease' sources. (n)
+No dependencies
+
+paidReleaseUnitTestAnnotationProcessorClasspath - Resolved configuration for annotation-processor for variant: paidReleaseUnitTest
+No dependencies
+
+paidReleaseUnitTestCompileClasspath - Resolved configuration for compilation for variant: paidReleaseUnitTest
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+paidReleaseUnitTestRuntimeClasspath - Resolved configuration for runtime for variant: paidReleaseUnitTest
++--- com.android.support:appcompat-v7:26.1.0
+|    +--- com.android.support:support-annotations:26.1.0
+|    +--- com.android.support:support-v4:26.1.0
+|    |    +--- com.android.support:support-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- android.arch.lifecycle:runtime:1.0.0
+|    |    |         +--- android.arch.lifecycle:common:1.0.0
+|    |    |         \--- android.arch.core:common:1.0.0
+|    |    +--- com.android.support:support-media-compat:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-utils:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    +--- com.android.support:support-core-ui:26.1.0
+|    |    |    +--- com.android.support:support-annotations:26.1.0
+|    |    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    |    \--- com.android.support:support-fragment:26.1.0
+|    |         +--- com.android.support:support-compat:26.1.0 (*)
+|    |         +--- com.android.support:support-core-ui:26.1.0 (*)
+|    |         \--- com.android.support:support-core-utils:26.1.0 (*)
+|    +--- com.android.support:support-vector-drawable:26.1.0
+|    |    +--- com.android.support:support-annotations:26.1.0
+|    |    \--- com.android.support:support-compat:26.1.0 (*)
+|    \--- com.android.support:animated-vector-drawable:26.1.0
+|         +--- com.android.support:support-vector-drawable:26.1.0 (*)
+|         \--- com.android.support:support-core-ui:26.1.0 (*)
++--- com.google.android.gms:play-services-ads:11.8.0
+|    +--- com.google.android.gms:play-services-ads-lite:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0
+|    |    |    +--- com.android.support:support-v4:25.2.0 -> 26.1.0 (*)
+|    |    |    \--- com.google.android.gms:play-services-basement-license:11.8.0
+|    |    \--- com.google.android.gms:play-services-ads-lite-license:11.8.0
+|    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    +--- com.google.android.gms:play-services-gass:11.8.0
+|    |    +--- com.google.android.gms:play-services-basement:11.8.0 (*)
+|    |    \--- com.google.android.gms:play-services-gass-license:11.8.0
+|    \--- com.google.android.gms:play-services-ads-license:11.8.0
++--- com.google.api-client:google-api-client:1.23.0
+|    +--- com.google.oauth-client:google-oauth-client:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0
+|    |    |    +--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    |    |    \--- org.apache.httpcomponents:httpclient:4.0.1
+|    |    |         +--- org.apache.httpcomponents:httpcore:4.0.1
+|    |    |         +--- commons-logging:commons-logging:1.1.1
+|    |    |         \--- commons-codec:commons-codec:1.3
+|    |    \--- com.google.code.findbugs:jsr305:1.3.9 -> 3.0.1
+|    +--- com.google.http-client:google-http-client-jackson2:1.23.0
+|    |    +--- com.google.http-client:google-http-client:1.23.0 (*)
+|    |    \--- com.fasterxml.jackson.core:jackson-core:2.1.3
+|    \--- com.google.guava:guava-jdk5:17.0
++--- com.google.http-client:google-http-client-android:1.23.0
+|    \--- com.google.http-client:google-http-client:1.23.0 (*)
++--- com.google.code.findbugs:jsr305:3.0.1
++--- project :jokeactivity
+|    \--- com.android.support:appcompat-v7:26.1.0 (*)
+\--- junit:junit:4.12
+     \--- org.hamcrest:hamcrest-core:1.3
+
+paidReleaseWearApp - Link to a wear app to embed for object 'paidRelease'. (n)
+No dependencies
+
+paidReleaseWearBundling - Resolved Configuration for wear app bundling for variant: paidRelease
+No dependencies
+
+paidRuntimeOnly - Runtime only dependencies for 'paid' sources. (n)
+No dependencies
+
+paidWearApp - Link to a wear app to embed for object 'paid'. (n)
+No dependencies
+
+provided - Provided dependencies for 'main' sources (deprecated: use 'compileOnly' instead). (n)
+No dependencies
+
+releaseAnnotationProcessor - Classpath for the annotation processor for 'release'. (n)
+No dependencies
+
+releaseApi - API dependencies for 'release' sources. (n)
+No dependencies
+
+releaseApk - Apk dependencies for 'release' sources (deprecated: use 'releaseRuntimeOnly' instead). (n)
+No dependencies
+
+releaseCompile - Compile dependencies for 'release' sources (deprecated: use 'releaseImplementation' instead). (n)
+No dependencies
+
+releaseCompileOnly - Compile only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseImplementation - Implementation only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseProvided - Provided dependencies for 'release' sources (deprecated: use 'releaseCompileOnly' instead). (n)
+No dependencies
+
+releaseRuntimeOnly - Runtime only dependencies for 'release' sources. (n)
+No dependencies
+
+releaseWearApp - Link to a wear app to embed for object 'release'. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for 'main' sources. (n)
+No dependencies
+
+testAnnotationProcessor - Classpath for the annotation processor for 'test'. (n)
+No dependencies
+
+testApi - API dependencies for 'test' sources. (n)
+No dependencies
+
+testApk - Apk dependencies for 'test' sources (deprecated: use 'testRuntimeOnly' instead). (n)
+No dependencies
+
+testCompile - Compile dependencies for 'test' sources (deprecated: use 'testImplementation' instead).
+No dependencies
+
+testCompileOnly - Compile only dependencies for 'test' sources. (n)
+No dependencies
+
+testDebugAnnotationProcessor - Classpath for the annotation processor for 'testDebug'. (n)
+No dependencies
+
+testDebugApi - API dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugApk - Apk dependencies for 'testDebug' sources (deprecated: use 'testDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testDebugCompile - Compile dependencies for 'testDebug' sources (deprecated: use 'testDebugImplementation' instead). (n)
+No dependencies
+
+testDebugCompileOnly - Compile only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugImplementation - Implementation only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugProvided - Provided dependencies for 'testDebug' sources (deprecated: use 'testDebugCompileOnly' instead). (n)
+No dependencies
+
+testDebugRuntimeOnly - Runtime only dependencies for 'testDebug' sources. (n)
+No dependencies
+
+testDebugWearApp - Link to a wear app to embed for object 'testDebug'. (n)
+No dependencies
+
+testFreeAnnotationProcessor - Classpath for the annotation processor for 'testFree'. (n)
+No dependencies
+
+testFreeApi - API dependencies for 'testFree' sources. (n)
+No dependencies
+
+testFreeApk - Apk dependencies for 'testFree' sources (deprecated: use 'testFreeRuntimeOnly' instead). (n)
+No dependencies
+
+testFreeCompile - Compile dependencies for 'testFree' sources (deprecated: use 'testFreeImplementation' instead). (n)
+No dependencies
+
+testFreeCompileOnly - Compile only dependencies for 'testFree' sources. (n)
+No dependencies
+
+testFreeDebugAnnotationProcessor - Classpath for the annotation processor for 'testFreeDebug'. (n)
+No dependencies
+
+testFreeDebugApi - API dependencies for 'testFreeDebug' sources. (n)
+No dependencies
+
+testFreeDebugApk - Apk dependencies for 'testFreeDebug' sources (deprecated: use 'testFreeDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testFreeDebugCompile - Compile dependencies for 'testFreeDebug' sources (deprecated: use 'testFreeDebugImplementation' instead). (n)
+No dependencies
+
+testFreeDebugCompileOnly - Compile only dependencies for 'testFreeDebug' sources. (n)
+No dependencies
+
+testFreeDebugImplementation - Implementation only dependencies for 'testFreeDebug' sources. (n)
+No dependencies
+
+testFreeDebugProvided - Provided dependencies for 'testFreeDebug' sources (deprecated: use 'testFreeDebugCompileOnly' instead). (n)
+No dependencies
+
+testFreeDebugRuntimeOnly - Runtime only dependencies for 'testFreeDebug' sources. (n)
+No dependencies
+
+testFreeDebugWearApp - Link to a wear app to embed for object 'testFreeDebug'. (n)
+No dependencies
+
+testFreeImplementation - Implementation only dependencies for 'testFree' sources. (n)
+No dependencies
+
+testFreeProvided - Provided dependencies for 'testFree' sources (deprecated: use 'testFreeCompileOnly' instead). (n)
+No dependencies
+
+testFreeReleaseAnnotationProcessor - Classpath for the annotation processor for 'testFreeRelease'. (n)
+No dependencies
+
+testFreeReleaseApi - API dependencies for 'testFreeRelease' sources. (n)
+No dependencies
+
+testFreeReleaseApk - Apk dependencies for 'testFreeRelease' sources (deprecated: use 'testFreeReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testFreeReleaseCompile - Compile dependencies for 'testFreeRelease' sources (deprecated: use 'testFreeReleaseImplementation' instead). (n)
+No dependencies
+
+testFreeReleaseCompileOnly - Compile only dependencies for 'testFreeRelease' sources. (n)
+No dependencies
+
+testFreeReleaseImplementation - Implementation only dependencies for 'testFreeRelease' sources. (n)
+No dependencies
+
+testFreeReleaseProvided - Provided dependencies for 'testFreeRelease' sources (deprecated: use 'testFreeReleaseCompileOnly' instead). (n)
+No dependencies
+
+testFreeReleaseRuntimeOnly - Runtime only dependencies for 'testFreeRelease' sources. (n)
+No dependencies
+
+testFreeReleaseWearApp - Link to a wear app to embed for object 'testFreeRelease'. (n)
+No dependencies
+
+testFreeRuntimeOnly - Runtime only dependencies for 'testFree' sources. (n)
+No dependencies
+
+testFreeWearApp - Link to a wear app to embed for object 'testFree'. (n)
+No dependencies
+
+testImplementation - Implementation only dependencies for 'test' sources. (n)
+\--- junit:junit:4.12 (n)
+
+testPaidAnnotationProcessor - Classpath for the annotation processor for 'testPaid'. (n)
+No dependencies
+
+testPaidApi - API dependencies for 'testPaid' sources. (n)
+No dependencies
+
+testPaidApk - Apk dependencies for 'testPaid' sources (deprecated: use 'testPaidRuntimeOnly' instead). (n)
+No dependencies
+
+testPaidCompile - Compile dependencies for 'testPaid' sources (deprecated: use 'testPaidImplementation' instead). (n)
+No dependencies
+
+testPaidCompileOnly - Compile only dependencies for 'testPaid' sources. (n)
+No dependencies
+
+testPaidDebugAnnotationProcessor - Classpath for the annotation processor for 'testPaidDebug'. (n)
+No dependencies
+
+testPaidDebugApi - API dependencies for 'testPaidDebug' sources. (n)
+No dependencies
+
+testPaidDebugApk - Apk dependencies for 'testPaidDebug' sources (deprecated: use 'testPaidDebugRuntimeOnly' instead). (n)
+No dependencies
+
+testPaidDebugCompile - Compile dependencies for 'testPaidDebug' sources (deprecated: use 'testPaidDebugImplementation' instead). (n)
+No dependencies
+
+testPaidDebugCompileOnly - Compile only dependencies for 'testPaidDebug' sources. (n)
+No dependencies
+
+testPaidDebugImplementation - Implementation only dependencies for 'testPaidDebug' sources. (n)
+No dependencies
+
+testPaidDebugProvided - Provided dependencies for 'testPaidDebug' sources (deprecated: use 'testPaidDebugCompileOnly' instead). (n)
+No dependencies
+
+testPaidDebugRuntimeOnly - Runtime only dependencies for 'testPaidDebug' sources. (n)
+No dependencies
+
+testPaidDebugWearApp - Link to a wear app to embed for object 'testPaidDebug'. (n)
+No dependencies
+
+testPaidImplementation - Implementation only dependencies for 'testPaid' sources. (n)
+No dependencies
+
+testPaidProvided - Provided dependencies for 'testPaid' sources (deprecated: use 'testPaidCompileOnly' instead). (n)
+No dependencies
+
+testPaidReleaseAnnotationProcessor - Classpath for the annotation processor for 'testPaidRelease'. (n)
+No dependencies
+
+testPaidReleaseApi - API dependencies for 'testPaidRelease' sources. (n)
+No dependencies
+
+testPaidReleaseApk - Apk dependencies for 'testPaidRelease' sources (deprecated: use 'testPaidReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testPaidReleaseCompile - Compile dependencies for 'testPaidRelease' sources (deprecated: use 'testPaidReleaseImplementation' instead). (n)
+No dependencies
+
+testPaidReleaseCompileOnly - Compile only dependencies for 'testPaidRelease' sources. (n)
+No dependencies
+
+testPaidReleaseImplementation - Implementation only dependencies for 'testPaidRelease' sources. (n)
+No dependencies
+
+testPaidReleaseProvided - Provided dependencies for 'testPaidRelease' sources (deprecated: use 'testPaidReleaseCompileOnly' instead). (n)
+No dependencies
+
+testPaidReleaseRuntimeOnly - Runtime only dependencies for 'testPaidRelease' sources. (n)
+No dependencies
+
+testPaidReleaseWearApp - Link to a wear app to embed for object 'testPaidRelease'. (n)
+No dependencies
+
+testPaidRuntimeOnly - Runtime only dependencies for 'testPaid' sources. (n)
+No dependencies
+
+testPaidWearApp - Link to a wear app to embed for object 'testPaid'. (n)
+No dependencies
+
+testProvided - Provided dependencies for 'test' sources (deprecated: use 'testCompileOnly' instead). (n)
+No dependencies
+
+testReleaseAnnotationProcessor - Classpath for the annotation processor for 'testRelease'. (n)
+No dependencies
+
+testReleaseApi - API dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseApk - Apk dependencies for 'testRelease' sources (deprecated: use 'testReleaseRuntimeOnly' instead). (n)
+No dependencies
+
+testReleaseCompile - Compile dependencies for 'testRelease' sources (deprecated: use 'testReleaseImplementation' instead). (n)
+No dependencies
+
+testReleaseCompileOnly - Compile only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseImplementation - Implementation only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseProvided - Provided dependencies for 'testRelease' sources (deprecated: use 'testReleaseCompileOnly' instead). (n)
+No dependencies
+
+testReleaseRuntimeOnly - Runtime only dependencies for 'testRelease' sources. (n)
+No dependencies
+
+testReleaseWearApp - Link to a wear app to embed for object 'testRelease'. (n)
+No dependencies
+
+testRuntimeOnly - Runtime only dependencies for 'test' sources. (n)
+No dependencies
+
+testWearApp - Link to a wear app to embed for object 'test'. (n)
+No dependencies
+
+wearApp - Link to a wear app to embed for object 'main'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed

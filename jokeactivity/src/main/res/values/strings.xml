@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JokeActivity</string>
+    <string name="back_button_text">Back</string>
+</resources>

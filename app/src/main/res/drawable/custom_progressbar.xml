@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- I figured out how to customize the progress bar from the following stack overflow answers:
+https://stackoverflow.com/questions/16893209/how-to-customize-a-progress-bar-in-android/30231742-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/progress"
+        android:top="0dp"
+        android:bottom="0dp">
+        <rotate
+            android:fromDegrees="180"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="540">
+
+            <shape android:shape="ring"
+                android:thickness="5dp">
+                <size
+                    android:width="20dp"
+                    android:height="20dp" />
+                <gradient
+                    android:startColor="@color/gradient_start"
+                    android:endColor="@color/gradient_end" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
